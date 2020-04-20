@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
-    color: black;
+    color: black;    
 }
 
 * {
@@ -16,21 +16,31 @@ h1, h2, h3, h4, h5, h6 {
     background-color:#000000;    
 }
 
+header {      
+    width: 100%;    
+    z-index: 1;
+    position: fixed;    
+}
+
 .navbar {    
-    border: 4px solid green;
+    border: 4px solid green;    
 }
 
 .navbar-toggler .navbar-toggler-icon {
     border: 2px dashed green;
 }
 
-/* change the link color */
 .nav-link {
     color: green !important;
 }
 
+.carousel {
+    z-index: 0;
+}
+
 .carousel-item img {
     width: 100%;
+    opacity: 0.5;
 }
 
 mark {
@@ -46,7 +56,7 @@ mark {
 .jumbotron .avatar-pic {
     width: 50%;
     padding: 3%;    
-    border-radius: 100%;      
+    border-radius: 100%;    
 }
 
 .jumbotron .social-icon {
