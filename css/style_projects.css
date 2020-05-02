@@ -1,0 +1,18 @@
+@import "main.css";
+
+h3 a {
+    color: green;
+}
+
+.project-title {
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+
+.project-img {    
+    width: 40%;
+    padding-bottom: 0%;
+}
+
+
