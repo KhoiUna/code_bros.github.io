@@ -1,6 +1,6 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Merriweather', serif;
-    color: black;    
+    color: green;    
 }
 
 * {
@@ -67,7 +67,7 @@ mark {
 footer {
     background-color:black;
     color:white;
-    border-top: 3px solid green;
+    border-top: 3px solid green;    
 }
 
 .footer-header {
