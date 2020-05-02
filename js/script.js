@@ -8,9 +8,3 @@ if (person === null || person === "") {
 }
 
 document.getElementById("hello").innerHTML = txt.toUpperCase();
-
-<script>
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip(); 
-});
-</script>
