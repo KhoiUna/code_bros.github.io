@@ -1,30 +1,46 @@
 @import "main.css";
 
+.title-intro {
+    animation-name: title-intro;
+    animation-duration: 5s;
+}
+
+@keyframes title-intro {
+    from {color: black; background-color: white;}
+    to {color: white; background-color: black;}
+}
+
 .goal-content {
     text-align: center;
     padding: 2%;
   }
   
 .subtitle {
-    color: green;
-    text-decoration: underline;
+    color: green;    
     font-size: 30px;
     font-weight: bold;
-    padding: 2%;
+    padding: 2%;    
+    text-decoration: underline;
 }
 
 .goal-content img {
     padding: 5% 0%;
 }
 
+.goal-content p {
+    text-align: center;
+    font-size: large;    
+    font-style: italic;
+}
+
+.goal-content p span {
+    font-weight: bold;    
+    color: green;    
+}
+
 .btn-custom {
     background-color: black !important;
     color: green !important;
-}
-
-.jumbotron {
-    padding: 0%;
-    margin: auto !important;
 }
 
 .dropdown-menu {
