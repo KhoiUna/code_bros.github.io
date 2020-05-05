@@ -1,0 +1,34 @@
+@import "main.css";
+
+.goal-content {
+    text-align: center;
+    padding: 2%;
+  }
+  
+.subtitle {
+    color: green;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.goal-content img {
+    padding: 5% 0%;
+}
+
+.btn-custom {
+    background-color: black !important;
+    color: green !important;
+}
+
+.jumbotron {
+    padding: 0%;
+    margin: auto !important;
+}
+
+.dropdown-menu {
+    width: 100% !important;
+    margin-right: 7% !important;
+    margin-left: 7.4% !important;        
+}
