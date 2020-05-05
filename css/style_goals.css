@@ -1,12 +1,12 @@
 @import "main.css";
 
-.title-intro {
+.title-intro {    
     animation-name: title-intro;
     animation-duration: 5s;
 }
 
 @keyframes title-intro {
-    from {color: black; background-color: white;}
+    from {color: black; background-color: green;}
     to {color: white; background-color: black;}
 }
 
